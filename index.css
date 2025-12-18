@@ -1,5 +1,5 @@
 
-open-sans{
+.open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -38,29 +38,16 @@ margin-right: 50px;
     font-weight: bold;
     font-size: 20px;
 }
-.btn-mary{
-     background-color: #fffefd;
-    color: #FD6E0A;
-    border: none;
-    border-radius: 5px;
-    padding: 18px 36px;
-    font-weight: bold;
-    font-size: 20px;
-    border: #FD6E0A 2px solid;  
-}
-
-
 .grtteing{
     display: flex;
     justify-content: space-between;
-    
 }
 .header{
-    
-    background-image: url(../image/color\ pic\ .png),url(../image/developer.png);
+    background-image: url(),url(../images/developer.png);
     background-repeat: no-repeat;
     background-position:bottom right,top left ;
-
+    background-color: #FFF8F3;
+    display: flex;
 }
 .mary{
     margin-left: 120px;
@@ -82,25 +69,25 @@ margin-right: 50px;
    margin:0px 230px 0PX 230px;
 }
 .skills{
-    border: solid 2px #FD6E0A   ;
     display: flex;
 }
-
-.media  {
-    border: solid 1px ;
-    
+audio{
+    margin-left: 1500px;
+    border: 5px solid red;
+    border-radius: 5px;
 }
-.resum-header{
+video{
+    border: 5px solid orange;
+}
+.summary{
     text-align: center;
 }
-
-
 .resume-details{
     display: flex;
     gap: 25px;
-    padding: 0px 200px 0px 200px;
-    align-items: center;
+    margin: 230px;
 }
+
 .center{
     text-align: center;
 }
