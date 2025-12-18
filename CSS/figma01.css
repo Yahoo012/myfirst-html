@@ -1,0 +1,110 @@
+
+open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.orange{
+ color: #FD6E0A;
+}
+nav ul li a{
+    text-decoration: none;
+     color: #474747;     
+}
+
+nav ul{
+    list-style: none;
+    display: flex; 
+    align-items: center;
+}
+nav{
+display: flex;
+justify-content: space-between;
+}
+nav ul li{
+margin-right: 50px;
+}
+
+.btn-primary{
+
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 36px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn-mary{
+     background-color: #fffefd;
+    color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 36px;
+    font-weight: bold;
+    font-size: 20px;
+    border: #FD6E0A 2px solid;  
+}
+
+
+.grtteing{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header{
+    
+    background-image: url(../image/color\ pic\ .png),url(../image/developer.png);
+    background-repeat: no-repeat;
+    background-position:bottom right,top left ;
+
+}
+.mary{
+    margin-left: 120px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.about-me{
+   text-align: center;
+   padding: 131px 156px;
+   margin: 130PX 230PX;
+   background-color: #FFF8F3;
+   
+}
+.skill{
+   text-align: center;
+   padding: 131px 156px;
+   margin:0px 230px 0PX 230px;
+}
+.skills{
+    border: solid 2px #FD6E0A   ;
+    display: flex;
+}
+
+.media  {
+    border: solid 1px ;
+    
+}
+.resum-header{
+    text-align: center;
+}
+
+
+.resume-details{
+    display: flex;
+    gap: 25px;
+    padding: 0px 200px 0px 200px;
+    align-items: center;
+}
+.center{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
